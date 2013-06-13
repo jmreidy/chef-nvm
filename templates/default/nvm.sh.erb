@@ -1,0 +1,5 @@
+nvm_root=<%= node['nvm']['directory'] %>
+
+if [ -n "$nvm_root" ]; then
+  eval ". $nvm_root/nvm.sh"
+fi
