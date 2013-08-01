@@ -1,5 +1,3 @@
-include Chef::Rbenv::ScriptHelpers
-
 action :install do
   bash "Installing node.js #{new_resource.version}..." do
     user new_resource.user
