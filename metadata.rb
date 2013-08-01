@@ -7,3 +7,4 @@ supports          'ubuntu', '>= 12.04'
 version           '0.1.0'
 
 depends           'git', '>= 2.1.0'
+depends           'curl', '>= 1.1.0'
