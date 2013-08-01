@@ -1,5 +1,3 @@
-include Chef::Rbenv::ScriptHelpers
-
 action :install do
   bash "Installing module #{new_resource.module}..." do
     user new_resource.user
