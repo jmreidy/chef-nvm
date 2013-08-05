@@ -6,7 +6,7 @@ action :install do
       export HOME=#{user_home}
       source #{node['nvm']['directory']}/nvm.sh
       nvm use #{new_resource.node_version}
-      npm install #{module_name}
+      npm install -g #{module_name}
     EOH
   end
   new_resource.updated_by_last_action(true)
